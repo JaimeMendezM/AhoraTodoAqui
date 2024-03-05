@@ -4,10 +4,10 @@ let miTitulo = document.querySelector("h1");
 let miImage = document.querySelector("img");
 miImage.onclick = function () {
   let miSrc = miImage.getAttribute("src");
-  if (miSrc === "images/portal.png") {
-    miImage.setAttribute("src", "images/portal1.png");
+  if (miSrc === "portal.png") {
+    miImage.setAttribute("src", "portal1.png");
   } else {
-    miImage.setAttribute("src", "images/portal.png");
+    miImage.setAttribute("src", "portal.png");
   }
 };
 
