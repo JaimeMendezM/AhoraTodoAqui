@@ -36,7 +36,6 @@ h1 {
 }
 
 img {
-  display: flex;
   width:250px;
   hight:250px;
   margin: 0 auto;
